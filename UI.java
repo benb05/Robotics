@@ -11,8 +11,8 @@ public class UI {
             System.out.println("Placing " + str);
         }
         else{
-            System.out.println("ERROR: INVALID CARD");
-        }
+            System.out.println("ERROR: INVALID CARD");\
+
 
        }
     
