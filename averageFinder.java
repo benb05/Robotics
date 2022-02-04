@@ -1,8 +1,9 @@
 public class averageFinder {
     //purpose of class is to find the average of an array
 
+  private static int[] targetArray;
     private static int[] arrayPopulator(){
-        int[] targetArray;
+        
 
         targetArray = new int [10];
 
@@ -18,6 +19,22 @@ public class averageFinder {
        return targetArray;
         }
 
+        private static void average(){
+            int sum = 0;
+            for (int i = 0; i <= targetArray.length; i++){
+               int element = targetArray[i]; 
+                
+               sum += element;
+                
+               
+            
+            }
+            
+            double average = (sum /= targetArray.length);
+            System.out.println("The average of this array is");
+            System.out.println(average);
+        }
+            
         
     
         
