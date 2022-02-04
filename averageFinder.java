@@ -13,16 +13,16 @@ public class averageFinder {
 
 
         }
-        for(int i = 0; i <= targetArray.length; i++){
+        for(int i = 0; i <= targetArray.length-1; i++){
             System.out.println(targetArray[i]);
         }
        return targetArray;
         }
 
         private static void average(){
-            int sum = 0;
-            for (int i = 0; i <= targetArray.length; i++){
-               int element = targetArray[i]; 
+            double sum = 0;
+            for (int i = 0; i <= targetArray.length-1; i++){
+               double element = targetArray[i]; 
                 
                sum += element;
                 
@@ -40,6 +40,7 @@ public class averageFinder {
         
  public static void main(String[] args) {
      arrayPopulator();
+     average();
  }
 }
         
