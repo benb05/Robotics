@@ -6,13 +6,13 @@ public class averageFinder {
 
         targetArray = new int [10];
 
-        for(int i = 0; i <= targetArray.length; i++){
+        for(int i = 0; i < targetArray.length; i++){
             
-            targetArray[i] = (int)Math.random();
+            targetArray[i] = (int)(Math.random()*10);
 
 
         }
-        for(int i = 0; i < targetArray.length - 1; i++){
+        for(int i = 0; i <= targetArray.length; i++){
             System.out.println(targetArray[i]);
         }
        return targetArray;
