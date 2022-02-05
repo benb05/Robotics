@@ -31,8 +31,8 @@ public class averageFinder {
             }
             
             double average = (sum /= targetArray.length);
-            System.out.println("The average of this array is");
-            System.out.println(average);
+            System.out.println("The average of this array is " + average);
+            
         }
             
         
