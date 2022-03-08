@@ -1,0 +1,8 @@
+ *     v = arr[c]
+ *     swap arr[c], arr[b]
+ *     s = a
+ *     for i in [a..b-1]
+ *         if arr[i] < v
+ *             swap arr[s], arr[i]
+ *             s+=1
+ *     swap arr[b], arr[s]
